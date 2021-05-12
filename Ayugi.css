@@ -1,0 +1,67 @@
+.navbar{
+  text-align: right;
+  padding: 2% 6%;
+  justify-content: space-between;
+  color: blue;
+}
+h1{
+text-align: center;
+color:gray;
+font-style: italic;
+}
+.line{
+    background-color: gray;
+    height: 3px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  P{
+    text-align: center;
+  }
+  img{
+    background-position: center;
+    padding-right: 80px;
+  }
+ 
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  border: bottom 1px solid blue ;
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 16px;
+
+}
+input{
+  height: 45px;
+}
+form .submit{
+    background: gray;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: blue;
+}
+form .submit:hover{
+    background-color: #FF8D22;
+    cursor: pointer;
+}
+
+
+
+
+
+  
+ 
