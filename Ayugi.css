@@ -1,11 +1,15 @@
-body{
-  background-color: gray;
+
+*{
+  margin: 0;
+  padding: 0;
 }
 ul {
   list-style-type: none;
-  margin: 100;
+  /* margin: 100; */
   padding: 0;
+  margin-top: 0;
   overflow: hidden;
+  width: 100%;
   background-color: #333;
 }
 
@@ -31,7 +35,9 @@ text-align: center;
 color: black;
 font-style: italic;
 }
-
+h2{
+  text-align: center;
+}
 .row:after {
     content: "";
     display: table;
@@ -42,17 +48,14 @@ font-style: italic;
     width: 33.33%;
   }
   P{
-    text-align: center;
+    text-align: left;
   }
-  img {
-    border-radius: 50%;
-    align-items: center;
-  }
+  
   .center {
     display: block;
-    margin-left: auto;
+    margin: 0px;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
   }
  
 .form-control{
@@ -82,7 +85,8 @@ form .submit{
 form .submit:hover{
     background-color: #FF8D22;
     cursor: pointer;
-}body {font-family: Arial, Helvetica, sans-serif;}
+}
+body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
@@ -114,8 +118,18 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
-
+img {
+  display: inline-block;
+  margin: 50px 20px;
+}
+#About{
+  text-align: center;
+  margin: 0px;
+}
+#cont{
+  width: 60%;
+  margin: 0 auto;
+}
 
 
 
