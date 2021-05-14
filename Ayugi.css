@@ -1,18 +1,37 @@
-.navbar{
-  text-align: right;
-  padding: 2% 6%;
-  justify-content: space-between;
-  color: blue;
+body{
+  background-color: gray;
 }
+ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  
+}
+
 h1{
 text-align: center;
-color:gray;
+color: black;
 font-style: italic;
 }
-.line{
-    background-color: gray;
-    height: 3px;
-}
+
 .row:after {
     content: "";
     display: table;
@@ -25,9 +44,15 @@ font-style: italic;
   P{
     text-align: center;
   }
-  img{
-    background-position: center;
-    padding-right: 80px;
+  img {
+    border-radius: 50%;
+    align-items: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
  
 .form-control{
@@ -57,6 +82,37 @@ form .submit{
 form .submit:hover{
     background-color: #FF8D22;
     cursor: pointer;
+}body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 

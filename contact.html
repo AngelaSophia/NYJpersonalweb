@@ -2,37 +2,37 @@
 <html>
     <head>
         <link rel="stylesheet"href ="Ayugi.css">
-        <h1><u>FEEL FREE TO SUBSCRIBE</u></h1>
-        <nav>
-            <div class="navbar">
-              <a href="home.html">HOME</a>
-                <a href="contact.html">CONTACT</a>
-                <a href="about.html">ABOUT</a>
-                <a href="blogs.html">BLOGS</a>
-            </nav>
-              </div>
+        <h1><u>FEEL FRY TO LEAVE COMMENTS</u></h1>
+        <ul>
+            <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="blogs.html">BLOGS</a></li>
+              <li><a href="land.html">HOME</a></li>
+        </ul>
     </head>
     <body>
-  <hr class="line">
-            <div class="contact-form">
-                <form id="name" method="POST"action="">
-             <input name="name" type="text" class="form-control" placeholder="your name"required>
-             <input name="email" type="email" class="form-control" placeholder="your email"required>
-             <textarea name="message" class="form-control" placeholder="Message" rows="4"required></textarea>
-             <input type="submit" class="form-control submit" value="SEND MESSAGE">
-                </form>
-                <hr class="line">
-            </div>
-            <div class="row">
-                <div class="column">
-                    <img width="400" height="300"src="./images/whatssapp.jpeg">
-                </div>
-                <div class="column">
-                    <img width="300" height="300"src="./images/teit.png">
-                </div>
-                <div class="column">
-                <img src="./images/gmail.gif">
-            </div>
-        </div>
+ 
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Kenyan</option>
+      <option value="canada">England</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
             </body>
 </html>
