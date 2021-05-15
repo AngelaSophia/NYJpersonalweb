@@ -37,6 +37,10 @@ font-style: italic;
 }
 h2{
   text-align: center;
+padding-top: 50;
+}
+h4{
+  text-align: center;
 }
 .row:after {
     content: "";
@@ -47,8 +51,10 @@ h2{
     float: left;
     width: 33.33%;
   }
-  P{
+  .class{
     text-align: left;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
   
   .center {
@@ -128,10 +134,16 @@ img {
 }
 #cont{
   width: 60%;
-  margin: 0 auto;
+  margin: 50px;
+  padding: 50px  ;
 }
 
-
-
+.class{
+  padding-top: 50px;
+   text-align: justify;
+}
+p{
+  text-align: left;
+}
   
  
